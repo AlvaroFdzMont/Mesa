@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mesa</title><meta name="robots" content="noindex">
+<style>html,body{margin:0;height:100%;background:#13100D}</style>
+<script>
+/* GitHub Pages muestra este archivo en direcciones como /Mesa/explorar.
+   Guarda la dirección pedida y abre la web (index.html), que la recupera. No hace falta actualizarlo nunca. */
+(function(){var rts=['explorar','rankings','l','r','u','perfil','actividad'],s=location.pathname.split('/'),i=-1;
+for(var j=1;j<s.length;j++){if(rts.indexOf(s[j])>=0){i=j;break}}
+var base=i>0?s.slice(0,i).join('/')+'/':(s.length>2?'/'+s[1]+'/':'/');
+try{sessionStorage.setItem('mesa_path',location.pathname+location.search+location.hash)}catch(e){}
+location.replace(base);})();
+</script></head><body></body></html>
